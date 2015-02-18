@@ -15,7 +15,7 @@
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
 
-set :user, 'revisit'
+set :user, 'talkingproject'
 
 server '173.236.186.122', user: fetch(:user), roles: %w{web app}
 
