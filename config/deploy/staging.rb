@@ -17,7 +17,7 @@
 
 set :user, 'web'
 
-server 'staging.talking-project.io', user: fetch(:user), roles: %w{web app}
+server '173.236.186.125', user: fetch(:user), roles: %w{web app}
 
 # PATHS
 set :deploy_to, "/home/talkingproject/staging.talking-project.io"
