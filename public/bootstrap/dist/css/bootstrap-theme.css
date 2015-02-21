@@ -1,6 +1,6 @@
 /*!
  * Bootstrap v3.2.0 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
+ * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -238,20 +238,20 @@
   text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
-  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
-  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #426877 0%, #304b56 100%);
+  background-image:      -o-linear-gradient(top, #426877 0%, #304b56 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#426877), to(#304b56));
+  background-image:         linear-gradient(to bottom, #426877 0%, #304b56 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff426877', endColorstr='#ff304b56', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
 }
 .navbar-inverse .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, #222 0%, #282828 100%);
-  background-image:      -o-linear-gradient(top, #222 0%, #282828 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#222), to(#282828));
-  background-image:         linear-gradient(to bottom, #222 0%, #282828 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff282828', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #304b56 0%, #35525e 100%);
+  background-image:      -o-linear-gradient(top, #304b56 0%, #35525e 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#304b56), to(#35525e));
+  background-image:         linear-gradient(to bottom, #304b56 0%, #35525e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff304b56', endColorstr='#ff35525e', GradientType=0);
   background-repeat: repeat-x;
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
           box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);
