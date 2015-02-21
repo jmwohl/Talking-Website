@@ -1,3 +1,4 @@
+@import "../../bootstrap/less/variables.less";
 @import "grid.less";
 
 strong {
@@ -5,8 +6,34 @@ strong {
 	font-weight: normal;
 }
 
+.container {
+	padding: 0px 20px;
+}
+
+.header-content {
+	margin-bottom: 50px;
+}
+
 .header-title {
-	margin-top: 30%;
+	margin-top: 15%;
+
+	h3 {
+		font-variant: small-caps;
+	}
+}
+
+
+.navbar-brand {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.navbar > .container .navbar-brand {
+	text-transform: uppercase;
+	color: #FFF;
+	&:hover {
+		color: #CCC;
+	}
 }
 
 .hero-space {
@@ -15,6 +42,33 @@ strong {
 		margin: 0 auto;
 	}
 }
+
+h4.credit {
+	color: #bbb;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+.light-text {
+	color: @gray-light;
+}
+
+
+.row.part-block {
+	border-top: 1px solid #eee;
+	padding: 20px 0px;	
+
+	h3 {
+		margin: 0 0 20px 0;
+		font-size: 20px;
+	}
+
+	p {
+		font-family: @font-family-sans-serif;
+	}
+}
+
+
 
 .main-content-container {
 	color: #FFF;
