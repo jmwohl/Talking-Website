@@ -881,7 +881,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "ProximaNova-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -969,16 +969,6 @@ hr {
   margin: 0;
   overflow: visible;
   clip: auto;
-}
-@font-face {
-  font-family: 'ProximaNova-Regular';
-  src: url('../fonts/ProximaNova-RegWeb.eot');
-  src: url('../fonts/ProximaNova-RegWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-RegWeb.woff') format('woff');
-}
-@font-face {
-  font-family: 'ProximaNova-Bold';
-  src: url('../fonts/ProximaNova-BoldWeb.eot');
-  src: url('../fonts/ProximaNova-BoldWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-BoldWeb.woff') format('woff');
 }
 h1,
 h2,
@@ -1099,7 +1089,7 @@ h6,
 }
 p {
   margin: 5px 0 5px 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Georgia, Times, serif;
   font-size: 17px;
 }
 .lead {
