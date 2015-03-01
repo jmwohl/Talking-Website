@@ -26,7 +26,7 @@ strong {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-.navbar > .container .navbar-brand {
+.navbar > .container-fw .navbar-brand {
     text-transform: uppercase;
     color: #FFF;
     font-size: 16px;
@@ -46,13 +46,17 @@ strong {
     }
 }
 h4.credit {
-    color: #bbb;
+    color: @gray-light;
     margin-top: 0;
     margin-bottom: 18px;
     font-size: 16px;
+    a {
+       color: @gray-light;
+    }
 }
 .light-text {
     color: @gray-light;
+
 }
 .row.part-block {
     border-top: 1px solid @gray-light;
@@ -127,6 +131,23 @@ h4.credit {
 	.navbar-toggle {
 		border: 0;
 	}
+}
+
+#imageHost {
+    font-size: 12px;
+}
+
+#imageObject {
+    margin-top: 5px;
+}
+
+.footer {
+    margin: 100px 0px 20px 0px;
+    text-align: center;
+    color: @gray-light;
+    a {
+       color: @gray-light;
+    }
 }
 
 /* Small devices (tablets, 768px and up) */
