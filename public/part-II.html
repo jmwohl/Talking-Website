@@ -31,7 +31,7 @@
 
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="container-fw">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -70,7 +70,7 @@
             <div class="row intro-block">
                 <div class="col-md-12">
                     <p>
-                        In this part, we again use the form of two opposing devices. Cycling through a selection of actions and reactions, the devices interpret and respond to one another solely via the camera and the screen. The sequential device states each embody a unique non-verbal gesture, attitude, or emotion — e.g. meeting, waiting, transacting, play, competition, aggression, boredom, mimicry, impatience.
+                        Here we look at the ways in which humans communicate visually through gesture and body language, and show how human conversation can be broken down into general phases of actions and processes. These explorations are manifested as an art installation in which two computers converse using a purely visual language composed of gestural elements.
                     </p>
                 </div>
             </div>
@@ -80,13 +80,30 @@
             </div>
 
             <div class="row">
-                <p class="caption">
-                    Passing an object to the other, perhaps using the other to 'hold' the object, as in short-term memory, or to perform a process.
+                <h3>Visual Communication</h3>
+                <p>
+                    As humans, we naturally show our emotions and attitudes using our bodies, both consciously and unconsciously. Our hands are used as tools for expression as much as tools for physical interaction, and our faces often communicate more than the words we speak.
                 </p>
             </div>
+
+            <div class="row image-block">
+                <img class="img-responsive center-block" src="img/partII/talking_website_partII-09.png" />
+            </div>
+            
+            <div>
+                <p>
+                    A 'body language' of computers has evolved as well. We recognize certain visual cues on a screen as holding particular significance &mdash; e.g. a blinking cursor means the computer is waiting, a progress bar means it is working on a given task. A common iconography continues to emerge which enables computers to speak to humans in a non-verbal, unwritten language that spans borders and cultures.
+                </p>
+            </div>
+
+            <div class="row image-block">
+                <img class="img-responsive center-block" src="img/partII/talking_website_partII-08.png" />
+            </div>
+
             <div class="row">
-                <p class="caption">
-                    Here we talk about the different phases of the conversation: calibration, busy/waiting, decision-making and transaction.
+                <h3>Elements of a Conversation</h3>
+                <p>
+                    When we communicate with one another, we follow protocols that allow our conversations to flow smoothly — using known cues, we recognize when a conversation is starting, when it's our turn to talk (and when to listen). We're able to make mutual decisions, handle transactions, and manage unexpected interruptions.
                 </p>
             </div>
 
@@ -95,29 +112,30 @@
             </div>
 
             <div class="row">
-                <h2>Calibration</h2>
-                <p>Description about calibration.
+                <h3>A Visual Language for Computers</h3>
+                <p>
+                    To represent this exploration, we developed a pair of devices that communicate using a visual language based on the elements of conversation identified above. In contrast to familiar computer-to-human communication, the computers are designed to talk directly to one another using this gestural vocabulary.
                 </p>
+            </div>
+
+            <div class="row">
+                <h4>Calibration</h4>
             </div>
 
             <div class="row image-block">
                 <img class="img-responsive center-block" src="img/partII/talking_website_partII-01.png" />
             </div>
 
-			<div class="row">
-                <h2>Decision making</h2>
-                <p>Description about decision making.
-                </p>
+            <div class="row">
+                <h4>Decision Making</h4>
             </div>
 
             <div class="row image-block">
                 <img class="img-responsive center-block" src="img/partII/talking_website_partII-02.png" />
             </div>
 
-			<div class="row">
-                <h2>Busy / waiting</h2>
-                <p>Description about busy / waiting.
-                </p>
+            <div class="row">
+                <h4>Busy / Waiting</h4>
             </div>
 
             <div class="row image-block">
@@ -125,16 +143,14 @@
             </div>
 
             <div class="row">
-                <h2>Transaction</h2>
-                <p>Description about transaction.
-                </p>
+                <h4>Transaction</h4>
             </div>
 
             <div class="row image-block">
                 <img class="img-responsive center-block" src="img/partII/talking_website_partII-03.png" />
             </div>
 
-            
+
 
             <!-- INSTALLATION 3 -->
 
@@ -144,8 +160,27 @@
                 </p>
             </div>
 
-            <div class="row image-block">
-                <!-- Image Slideshow (look at Ishac's site) -->
+           <div class="row image-block">
+                <div id="imageHost">
+                    <a href="#" id="imagePrev">Previous</a> <span id="bar"> | </span><a href="#" id="imageNext">Next</a> <span id="imageCounter"></span>
+                    <br />
+                    <img id="imageObject" class="img-responsive" />
+                    <br />
+                    <span id="imageDesc"></span>
+                    <script type="text/javascript">
+                        var imagesJSON = { "images" : [
+                            /* BEGIN */
+                            { "image" : "/img/partI/installation/1.jpg", "desc" : "" },
+                            { "image" : "/img/partI/installation/2.jpg", "desc" : "" },
+                            { "image" : "/img/partI/installation/3.jpg", "desc" : "" },
+                            { "image" : "/img/partI/installation/4.jpg", "desc" : "" },
+                            { "image" : "/img/partI/installation/5.jpg", "desc" : "" },
+                            { "image" : "/img/partI/installation/6.jpg", "desc" : "" },
+                            { "image" : "/img/partI/installation/7.jpg", "desc" : "" }
+                            /* END */
+                        ]};
+                    </script>
+                </div>
             </div>
 
             <!-- END INSTALLATION -->
@@ -156,6 +191,7 @@
     <!-- /container -->
     <script type="text/javascript" src="js/libs/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/libs/script.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 </body>
